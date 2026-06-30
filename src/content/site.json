@@ -3,376 +3,166 @@
     "tag": "Legal",
     "title": "Política de",
     "title_highlight": "Privacidad",
-    "fecha": "1 de enero de 2025"
+    "fecha": "30 de junio de 2026"
   },
   "terminos": {
     "tag": "Legal",
     "title": "Términos",
     "title_highlight": "de Uso",
-    "fecha": "1 de enero de 2025"
+    "fecha": "30 de junio de 2026"
   },
   "meta": {
-    "title": "Iniestra Agency — Agencia de Marketing Digital",
-    "description": "Agencia de marketing digital especializada en desarrollo web, redes sociales, diseño gráfico, videomarketing y más."
+    "title": "SQ Creative Studio — Agencia de Marketing Digital",
+    "description": "Agencia de marketing digital: gestión de redes sociales, contenido audiovisual, videos UGC, automatización con IA y campañas publicitarias orientadas a resultados."
   },
   "nav": {
-    "brand": "Iniestra",
-    "subbrand": "Agency",
+    "brand": "SQ Creative Studio",
+    "subbrand": "by Stephania",
     "cta_secondary": "Hablemos",
     "cta_primary": "Contáctanos"
   },
   "hero": {
     "tag": "Agencia de Marketing Digital",
-    "title": "TU ESTRATEGIA DIGITAL",
-    "title_highlight": "que convierte",
-    "description": "Diseñamos experiencias digitales que generan resultados reales. Desde desarrollo web hasta campañas de performance — todo bajo un mismo techo.",
+    "title": "POTENCIAMOS TU MARCA",
+    "title_highlight": "en digital",
+    "description": "Gestión de redes sociales, contenido audiovisual, videos UGC, automatización con inteligencia artificial y campañas publicitarias orientadas a resultados. Todo desde un solo estudio.",
     "cta_primary": "Ver servicios",
     "cta_secondary": "Hablemos",
-    "badge1": "+100 Clientes satisfechos",
-    "badge2": "500+ Proyectos"
+    "badge1": "Entrega el mismo día",
+    "badge2": "Contenido 100% a medida"
   },
   "value": {
     "tag": "Por qué elegirnos",
-    "title": "Resultados medibles,",
-    "title_highlight": "no promesas",
-    "description": "Combinamos creatividad, tecnología y datos para crear estrategias que realmente funcionan para tu negocio.",
+    "title": "Estrategias que",
+    "title_highlight": "generan resultados",
+    "description": "Combinamos creatividad, contenido audiovisual y tecnología con IA para que tu marca crezca, gane visibilidad y venda más.",
     "link_text": "Ver todos los servicios",
     "features": [
       {
-        "icon": "psychology",
-        "title": "Estrategia Inteligente",
-        "desc": "Cada decisión respaldada por datos reales"
-      },
-      {
-        "icon": "monitoring",
-        "title": "Resultados Medibles",
-        "desc": "KPIs claros desde el primer día"
-      },
-      {
         "icon": "groups",
-        "title": "Equipo Experto",
-        "desc": "Especialistas en cada área de tu estrategia"
+        "title": "Equipo dedicado",
+        "desc": "Community manager y especialista en campañas asignados a tu cuenta"
+      },
+      {
+        "icon": "auto_awesome",
+        "title": "Contenido que enamora",
+        "desc": "Diseños y videos con la línea gráfica de tu negocio"
+      },
+      {
+        "icon": "smart_toy",
+        "title": "Automatización con IA",
+        "desc": "Procesos digitales optimizados y organizados 24/7"
       }
     ]
   },
   "servicios": {
     "tag": "Lo que ofrecemos",
     "title": "ELIGE TU",
-    "title_highlight": "PLAN IDEAL",
-    "description": "Selecciona el servicio y escoge el plan que mejor se adapta a tu negocio",
+    "title_highlight": "SERVICIO IDEAL",
+    "description": "Selecciona el servicio y el plan que mejor se adapta a tu negocio. Precios en USD.",
     "footer_text": "¿No encuentras lo que buscas?",
     "footer_link": "Cuéntanos tu caso",
     "tabs": [
-      {
-        "id": "web",
-        "icon": "code",
-        "label": "Desarrollo Web",
-        "planes": [
-          {
-            "nombre": "Starter",
-            "icon": "rocket_launch",
-            "precio": "500€",
-            "periodo": "/único",
-            "desc": "Landing page profesional para lanzar tu presencia online",
-            "popular": false,
-            "features": [
-              {
-                "text": "1 página landing",
-                "included": true
-              },
-              {
-                "text": "Diseño responsive",
-                "included": true
-              },
-              {
-                "text": "Formulario de contacto",
-                "included": true
-              },
-              {
-                "text": "SEO básico",
-                "included": true
-              },
-              {
-                "text": "CMS / Blog",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Básico",
-            "icon": "language",
-            "precio": "990€",
-            "periodo": "/único",
-            "desc": "Web corporativa completa con hasta 5 páginas",
-            "popular": false,
-            "features": [
-              {
-                "text": "Hasta 5 páginas",
-                "included": true
-              },
-              {
-                "text": "Diseño a medida",
-                "included": true
-              },
-              {
-                "text": "Panel de administración",
-                "included": true
-              },
-              {
-                "text": "SEO on-page",
-                "included": true
-              },
-              {
-                "text": "E-commerce",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Profesional",
-            "icon": "star",
-            "precio": "2.400€",
-            "periodo": "/único",
-            "desc": "Web avanzada con e-commerce y optimización de conversión",
-            "popular": true,
-            "features": [
-              {
-                "text": "Hasta 20 páginas",
-                "included": true
-              },
-              {
-                "text": "E-commerce integrado",
-                "included": true
-              },
-              {
-                "text": "Velocidad optimizada",
-                "included": true
-              },
-              {
-                "text": "SEO avanzado",
-                "included": true
-              },
-              {
-                "text": "Analíticas avanzadas",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Business",
-            "icon": "business",
-            "precio": "4.900€",
-            "periodo": "/único",
-            "desc": "Plataforma web compleja con integraciones y automatizaciones",
-            "popular": false,
-            "features": [
-              {
-                "text": "Páginas ilimitadas",
-                "included": true
-              },
-              {
-                "text": "Integraciones CRM/ERP",
-                "included": true
-              },
-              {
-                "text": "Área privada usuarios",
-                "included": true
-              },
-              {
-                "text": "Multiidioma",
-                "included": true
-              },
-              {
-                "text": "Soporte 6 meses",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Enterprise",
-            "icon": "corporate_fare",
-            "precio": "A medida",
-            "periodo": "",
-            "desc": "Solución web 100% personalizada para grandes organizaciones",
-            "popular": false,
-            "features": [
-              {
-                "text": "Arquitectura custom",
-                "included": true
-              },
-              {
-                "text": "SLA garantizado",
-                "included": true
-              },
-              {
-                "text": "Equipo dedicado",
-                "included": true
-              },
-              {
-                "text": "Mantenimiento anual",
-                "included": true
-              },
-              {
-                "text": "Formación incluida",
-                "included": true
-              }
-            ]
-          }
-        ]
-      },
       {
         "id": "social",
         "icon": "thumb_up",
         "label": "Redes Sociales",
         "planes": [
           {
-            "nombre": "Micro",
+            "nombre": "Esencial",
             "icon": "smartphone",
-            "precio": "290€",
+            "precio": "$550",
             "periodo": "/mes",
-            "desc": "Presencia básica en 1 red social",
+            "desc": "Gestión profesional de 1 red social con contenido a medida",
             "popular": false,
             "features": [
-              {
-                "text": "1 red social",
-                "included": true
-              },
-              {
-                "text": "8 posts/mes",
-                "included": true
-              },
-              {
-                "text": "Diseño de posts",
-                "included": true
-              },
-              {
-                "text": "Stories/Reels",
-                "included": false
-              },
-              {
-                "text": "Reporte mensual",
-                "included": false
-              }
+              { "text": "1 red social", "included": true },
+              { "text": "15 diseños al mes (hasta 6 videos)", "included": true },
+              { "text": "Community manager dedicado", "included": true },
+              { "text": "Parrilla de contenidos y copies", "included": true },
+              { "text": "Respuesta a mensajes y comentarios", "included": true },
+              { "text": "Campañas publicitarias", "included": false }
             ]
           },
           {
-            "nombre": "Básico",
+            "nombre": "Indispensable",
             "icon": "share",
-            "precio": "590€",
+            "precio": "$600",
             "periodo": "/mes",
-            "desc": "Gestión activa en 2 redes sociales",
+            "desc": "Gestión de 2 redes con automatización IA y videos incluidos",
             "popular": false,
             "features": [
-              {
-                "text": "2 redes sociales",
-                "included": true
-              },
-              {
-                "text": "16 posts/mes",
-                "included": true
-              },
-              {
-                "text": "4 Stories/semana",
-                "included": true
-              },
-              {
-                "text": "Community mgmt básico",
-                "included": true
-              },
-              {
-                "text": "Reels / TikToks",
-                "included": false
-              }
+              { "text": "2 redes sociales", "included": true },
+              { "text": "15 diseños por red al mes", "included": true },
+              { "text": "Automatización con IA", "included": true },
+              { "text": "6 videos (incluye grabación opcional)", "included": true },
+              { "text": "1 video UGC + 9 diseños", "included": true },
+              { "text": "2 propuestas de campaña", "included": true }
             ]
           },
           {
-            "nombre": "Growth",
-            "icon": "trending_up",
-            "precio": "990€",
+            "nombre": "Completo",
+            "icon": "rocket_launch",
+            "precio": "$650",
             "periodo": "/mes",
-            "desc": "Estrategia completa para crecer en 3 plataformas",
+            "desc": "Instagram, Facebook y TikTok + todo lo del plan Indispensable",
             "popular": true,
             "features": [
-              {
-                "text": "3 redes sociales",
-                "included": true
-              },
-              {
-                "text": "24 posts/mes",
-                "included": true
-              },
-              {
-                "text": "Reels & Stories",
-                "included": true
-              },
-              {
-                "text": "Community mgmt completo",
-                "included": true
-              },
-              {
-                "text": "Reporte mensual",
-                "included": true
-              }
+              { "text": "3 redes: Instagram, Facebook y TikTok", "included": true },
+              { "text": "Todo lo del plan Indispensable", "included": true },
+              { "text": "15 diseños por red al mes", "included": true },
+              { "text": "Campañas publicitarias incluidas", "included": true },
+              { "text": "Reporte mensual de crecimiento", "included": true }
             ]
           },
           {
-            "nombre": "Pro",
-            "icon": "bar_chart",
-            "precio": "1.690€",
-            "periodo": "/mes",
-            "desc": "Gestión 360° con estrategia publicitaria incluida",
+            "nombre": "Grabación de videos",
+            "icon": "videocam",
+            "precio": "$300",
+            "periodo": "/sesión",
+            "desc": "Sesión de grabación profesional para tu contenido",
             "popular": false,
             "features": [
-              {
-                "text": "Todas las redes",
-                "included": true
-              },
-              {
-                "text": "40 posts/mes",
-                "included": true
-              },
-              {
-                "text": "Campañas de pago",
-                "included": true
-              },
-              {
-                "text": "Analítica avanzada",
-                "included": true
-              },
-              {
-                "text": "Gestor dedicado",
-                "included": true
-              }
+              { "text": "6 videos grabados", "included": true },
+              { "text": "3 horas de grabación", "included": true },
+              { "text": "Estrategia de videos incluida", "included": true },
+              { "text": "Guiones para revisión del cliente", "included": true }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "ugc",
+        "icon": "record_voice_over",
+        "label": "Creadores UGC",
+        "planes": [
           {
-            "nombre": "Enterprise",
-            "icon": "corporate_fare",
-            "precio": "A medida",
+            "nombre": "Video UGC",
+            "icon": "person",
+            "precio": "Cotización",
             "periodo": "",
-            "desc": "Para marcas con altos volúmenes y múltiples mercados",
+            "desc": "Videos publicitarios con personas reales que conectan y venden",
+            "popular": true,
+            "features": [
+              { "text": "Diseño de script vendedor", "included": true },
+              { "text": "Contratación del creador / modelo", "included": true },
+              { "text": "1 video con edición profesional", "included": true },
+              { "text": "Propuesta de campaña publicitaria", "included": true },
+              { "text": "Trafficker para lanzamiento (30 días)", "included": true }
+            ]
+          },
+          {
+            "nombre": "UGC by Stephania",
+            "icon": "stars",
+            "precio": "$100",
+            "periodo": "/video",
+            "desc": "Video UGC realizado directamente por Stephania",
             "popular": false,
             "features": [
-              {
-                "text": "Equipo dedicado",
-                "included": true
-              },
-              {
-                "text": "Multiidioma",
-                "included": true
-              },
-              {
-                "text": "Estrategia global",
-                "included": true
-              },
-              {
-                "text": "Influencer mgmt",
-                "included": true
-              },
-              {
-                "text": "Dashboard en tiempo real",
-                "included": true
-              }
+              { "text": "1 video UGC con edición", "included": true },
+              { "text": "Guión: 3 días hábiles", "included": true },
+              { "text": "Video: 5 a 7 días hábiles", "included": true },
+              { "text": "Ideal para complementar tu plan de redes", "included": true }
             ]
           }
         ]
@@ -383,153 +173,138 @@
         "label": "Diseño Gráfico",
         "planes": [
           {
-            "nombre": "Logo",
+            "nombre": "Diseño de Marca",
             "icon": "palette",
-            "precio": "290€",
+            "precio": "$300",
             "periodo": "/único",
-            "desc": "Logotipo profesional con variantes de uso",
-            "popular": false,
-            "features": [
-              {
-                "text": "3 propuestas iniciales",
-                "included": true
-              },
-              {
-                "text": "2 rondas de revisión",
-                "included": true
-              },
-              {
-                "text": "Archivos vectoriales",
-                "included": true
-              },
-              {
-                "text": "Manual de marca",
-                "included": false
-              },
-              {
-                "text": "Papelería",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Identidad",
-            "icon": "style",
-            "precio": "790€",
-            "periodo": "/único",
-            "desc": "Identidad visual completa para tu marca",
-            "popular": false,
-            "features": [
-              {
-                "text": "Logo + variantes",
-                "included": true
-              },
-              {
-                "text": "Paleta de colores",
-                "included": true
-              },
-              {
-                "text": "Tipografías corporativas",
-                "included": true
-              },
-              {
-                "text": "Manual básico de marca",
-                "included": true
-              },
-              {
-                "text": "Papelería completa",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Branding Pro",
-            "icon": "auto_awesome",
-            "precio": "1.490€",
-            "periodo": "/único",
-            "desc": "Branding completo con papelería y materiales digitales",
+            "desc": "Identidad completa: 3 propuestas de logo y material de apoyo",
             "popular": true,
             "features": [
-              {
-                "text": "Identidad completa",
-                "included": true
-              },
-              {
-                "text": "Manual de marca 30p",
-                "included": true
-              },
-              {
-                "text": "Papelería corporativa",
-                "included": true
-              },
-              {
-                "text": "Kit redes sociales",
-                "included": true
-              },
-              {
-                "text": "Iconografía personalizada",
-                "included": true
-              }
+              { "text": "3 propuestas de logotipo", "included": true },
+              { "text": "1 ronda de cambios incluida", "included": true },
+              { "text": "Manual de identidad corporativa", "included": true },
+              { "text": "Logotipo en editable, JPG y PNG", "included": true },
+              { "text": "Tipografías corporativas", "included": true }
             ]
           },
           {
-            "nombre": "Editorial",
-            "icon": "edit_note",
-            "precio": "490€",
-            "periodo": "/mes",
-            "desc": "Diseño mensual de materiales gráficos recurrentes",
+            "nombre": "Flyer / Portada",
+            "icon": "image",
+            "precio": "$50",
+            "periodo": "/pieza",
+            "desc": "Diseño de flyer, cover, header o foto de portada",
             "popular": false,
             "features": [
-              {
-                "text": "20 piezas/mes",
-                "included": true
-              },
-              {
-                "text": "Banners y publicidad",
-                "included": true
-              },
-              {
-                "text": "Infografías",
-                "included": true
-              },
-              {
-                "text": "Presentaciones",
-                "included": true
-              },
-              {
-                "text": "Entrega en 48h",
-                "included": true
-              }
+              { "text": "Diseño a medida", "included": true },
+              { "text": "Entrega en 2 a 4 días hábiles", "included": true },
+              { "text": "Adaptado a tu línea gráfica", "included": true }
             ]
           },
           {
-            "nombre": "Enterprise",
-            "icon": "corporate_fare",
-            "precio": "A medida",
-            "periodo": "",
-            "desc": "Departamento de diseño externo para grandes empresas",
+            "nombre": "Tarjeta de presentación",
+            "icon": "badge",
+            "precio": "$30",
+            "periodo": "/único",
+            "desc": "Tarjeta de presentación profesional lista para imprenta",
             "popular": false,
             "features": [
-              {
-                "text": "Diseñadores dedicados",
-                "included": true
-              },
-              {
-                "text": "Piezas ilimitadas",
-                "included": true
-              },
-              {
-                "text": "Entrega urgente",
-                "included": true
-              },
-              {
-                "text": "Sistema de diseño",
-                "included": true
-              },
-              {
-                "text": "Acceso directo al equipo",
-                "included": true
-              }
+              { "text": "Diseño frente y vuelta", "included": true },
+              { "text": "Entrega en 4 días hábiles", "included": true },
+              { "text": "Archivo listo para impresión", "included": true }
+            ]
+          },
+          {
+            "nombre": "Naming",
+            "icon": "spellcheck",
+            "precio": "$150",
+            "periodo": "/único",
+            "desc": "Creación del nombre perfecto para tu marca o producto",
+            "popular": false,
+            "features": [
+              { "text": "Propuestas de nombre", "included": true },
+              { "text": "Entrega en 7 días hábiles", "included": true },
+              { "text": "Enfoque estratégico y disponible", "included": true }
+            ]
+          },
+          {
+            "nombre": "Menú Digital",
+            "icon": "restaurant_menu",
+            "precio": "$50",
+            "periodo": "/único",
+            "desc": "Menú digital para tu negocio (Pyme o empresarial)",
+            "popular": false,
+            "features": [
+              { "text": "Menú digital Pyme $50", "included": true },
+              { "text": "Menú digital empresarial $180", "included": true },
+              { "text": "Entrega en 7 días hábiles", "included": true },
+              { "text": "Infografías, carteles y más bajo cotización", "included": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "web",
+        "icon": "code",
+        "label": "Desarrollo Web",
+        "planes": [
+          {
+            "nombre": "Landing Page",
+            "icon": "web",
+            "precio": "$500",
+            "periodo": "/único",
+            "desc": "Sitio de una sola página con tus datos y formulario de contacto",
+            "popular": false,
+            "features": [
+              { "text": "1 página en WordPress", "included": true },
+              { "text": "Económico $500 · A la medida $700", "included": true },
+              { "text": "Formulario de contacto", "included": true },
+              { "text": "Hosting, SSL y 1 correo corporativo", "included": true },
+              { "text": "Entrega: 5 a 8 días", "included": true }
+            ]
+          },
+          {
+            "nombre": "Web Informativo",
+            "icon": "language",
+            "precio": "$700",
+            "periodo": "/único",
+            "desc": "Sitio de 5 páginas ideal para mostrar tus servicios",
+            "popular": true,
+            "features": [
+              { "text": "5 páginas: Inicio, Nosotros, Servicios…", "included": true },
+              { "text": "Económico $700 · A la medida $850", "included": true },
+              { "text": "Diseño adaptado a tu imagen corporativa", "included": true },
+              { "text": "Hosting, SSL y 2 correos corporativos", "included": true },
+              { "text": "Entrega: 8 a 15 días", "included": true }
+            ]
+          },
+          {
+            "nombre": "E-commerce WhatsApp",
+            "icon": "storefront",
+            "precio": "$800",
+            "periodo": "/único",
+            "desc": "Catálogo de productos con pedidos directos a WhatsApp",
+            "popular": false,
+            "features": [
+              { "text": "Catálogo de productos", "included": true },
+              { "text": "Económico $800 · A la medida $1,000", "included": true },
+              { "text": "Pedidos enviados a WhatsApp", "included": true },
+              { "text": "Hosting, SSL y 2 correos corporativos", "included": true },
+              { "text": "Entrega: 10 a 20 días", "included": true }
+            ]
+          },
+          {
+            "nombre": "E-commerce Pasarela",
+            "icon": "shopping_cart",
+            "precio": "$1,000",
+            "periodo": "/único",
+            "desc": "Tienda en línea con pago en tarjeta, PayPal y más",
+            "popular": false,
+            "features": [
+              { "text": "Tienda en línea completa", "included": true },
+              { "text": "Económico $1,000 · A la medida $1,200", "included": true },
+              { "text": "Pasarelas de pago (tarjeta, PayPal…)", "included": true },
+              { "text": "Hosting, SSL y 2 correos corporativos", "included": true },
+              { "text": "Extras: blog, multilenguaje, reservas…", "included": true }
             ]
           }
         ]
@@ -537,156 +312,62 @@
       {
         "id": "video",
         "icon": "videocam",
-        "label": "Videomarketing",
+        "label": "Video Marketing",
         "planes": [
           {
-            "nombre": "Reel",
-            "icon": "smartphone",
-            "precio": "190€",
-            "periodo": "/vídeo",
-            "desc": "Vídeo corto para redes sociales (Reels, TikTok, Shorts)",
-            "popular": false,
-            "features": [
-              {
-                "text": "Hasta 60 segundos",
-                "included": true
-              },
-              {
-                "text": "Edición + música",
-                "included": true
-              },
-              {
-                "text": "Subtítulos animados",
-                "included": true
-              },
-              {
-                "text": "Rodaje propio",
-                "included": false
-              },
-              {
-                "text": "Voz en off",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Básico",
-            "icon": "videocam",
-            "precio": "590€",
-            "periodo": "/vídeo",
-            "desc": "Vídeo corporativo profesional de hasta 2 minutos",
-            "popular": false,
-            "features": [
-              {
-                "text": "Hasta 2 minutos",
-                "included": true
-              },
-              {
-                "text": "Guión incluido",
-                "included": true
-              },
-              {
-                "text": "Post-producción completa",
-                "included": true
-              },
-              {
-                "text": "Música licenciada",
-                "included": true
-              },
-              {
-                "text": "Rodaje en location",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Producción",
+            "nombre": "Video Básico",
             "icon": "movie",
-            "precio": "1.490€",
-            "periodo": "/vídeo",
-            "desc": "Producción completa con rodaje y dirección creativa",
+            "precio": "$40",
+            "periodo": "desde",
+            "desc": "Edición con transiciones simples, textos 2D y música",
+            "popular": false,
+            "features": [
+              { "text": "Menos de 30 seg — $40", "included": true },
+              { "text": "30 seg — $70", "included": true },
+              { "text": "60 seg — $100", "included": true },
+              { "text": "Reels, TikTok, Stories y más", "included": true }
+            ]
+          },
+          {
+            "nombre": "Video Inter",
+            "icon": "auto_awesome_motion",
+            "precio": "$75",
+            "periodo": "desde",
+            "desc": "Transiciones elaboradas y uso de mockups",
             "popular": true,
             "features": [
-              {
-                "text": "Rodaje en location",
-                "included": true
-              },
-              {
-                "text": "Dirección creativa",
-                "included": true
-              },
-              {
-                "text": "Voz en off profesional",
-                "included": true
-              },
-              {
-                "text": "Motion graphics",
-                "included": true
-              },
-              {
-                "text": "3 formatos de entrega",
-                "included": true
-              }
+              { "text": "Menos de 30 seg — $75", "included": true },
+              { "text": "30 seg — $130", "included": true },
+              { "text": "60 seg — $200", "included": true },
+              { "text": "Transiciones avanzadas + mockups", "included": true }
             ]
           },
           {
-            "nombre": "Pack Mensual",
+            "nombre": "Video Completo",
+            "icon": "theaters",
+            "precio": "$100",
+            "periodo": "desde",
+            "desc": "Transiciones, mockups y animaciones de alto nivel",
+            "popular": false,
+            "features": [
+              { "text": "Menos de 30 seg — $100", "included": true },
+              { "text": "30 seg — $270", "included": true },
+              { "text": "60 seg — $500", "included": true },
+              { "text": "Animaciones y motion graphics", "included": true }
+            ]
+          },
+          {
+            "nombre": "Suscripción Mensual",
             "icon": "subscriptions",
-            "precio": "990€",
+            "precio": "$200",
             "periodo": "/mes",
-            "desc": "Producción continua de contenido en vídeo",
+            "desc": "Videos recurrentes cada semana con ahorro",
             "popular": false,
             "features": [
-              {
-                "text": "4 vídeos/mes",
-                "included": true
-              },
-              {
-                "text": "Reels + largo formato",
-                "included": true
-              },
-              {
-                "text": "Calendario editorial",
-                "included": true
-              },
-              {
-                "text": "Publicación incluida",
-                "included": true
-              },
-              {
-                "text": "Reporte de resultados",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Campaña",
-            "icon": "live_tv",
-            "precio": "A medida",
-            "periodo": "",
-            "desc": "Campaña audiovisual completa para lanzamientos o eventos",
-            "popular": false,
-            "features": [
-              {
-                "text": "Spot publicitario",
-                "included": true
-              },
-              {
-                "text": "Adaptaciones múltiples",
-                "included": true
-              },
-              {
-                "text": "Distribución en medios",
-                "included": true
-              },
-              {
-                "text": "Estrategia de paid",
-                "included": true
-              },
-              {
-                "text": "Medición de resultados",
-                "included": true
-              }
+              { "text": "4 videos al mes (1 por semana)", "included": true },
+              { "text": "Básico $200 · Inter $300 · Completo $600", "included": true },
+              { "text": "Narración de voz en off (opcional)", "included": true },
+              { "text": "Animación de logotipo desde $30", "included": true }
             ]
           }
         ]
@@ -694,156 +375,81 @@
       {
         "id": "ads",
         "icon": "ads_click",
-        "label": "Google & Meta",
+        "label": "Publicidad",
         "planes": [
           {
-            "nombre": "Arranque",
+            "nombre": "Google Search",
             "icon": "search",
-            "precio": "390€",
-            "periodo": "/mes",
-            "desc": "Primera campaña en Google Ads para negocios que empiezan",
+            "precio": "$85",
+            "periodo": "/campaña",
+            "desc": "Posiciónate en los primeros resultados de búsqueda",
             "popular": false,
             "features": [
-              {
-                "text": "1 campaña Google",
-                "included": true
-              },
-              {
-                "text": "Configuración inicial",
-                "included": true
-              },
-              {
-                "text": "Informe mensual",
-                "included": true
-              },
-              {
-                "text": "Meta Ads",
-                "included": false
-              },
-              {
-                "text": "Remarketing",
-                "included": false
-              }
+              { "text": "Análisis inicial", "included": true },
+              { "text": "Búsqueda y selección de palabras clave", "included": true },
+              { "text": "Segmentación de mercado objetivo", "included": true },
+              { "text": "Lanzamiento, monitoreo y reporte", "included": true },
+              { "text": "Inversión publicitaria no incluida", "included": false }
             ]
           },
           {
-            "nombre": "Básico",
-            "icon": "ads_click",
-            "precio": "690€",
-            "periodo": "/mes",
-            "desc": "Google + Meta con optimización continua",
+            "nombre": "Google Display",
+            "icon": "wallpaper",
+            "precio": "$135",
+            "periodo": "/campaña",
+            "desc": "Anuncios visuales en millones de sitios web y apps",
             "popular": false,
             "features": [
-              {
-                "text": "Google Search + Display",
-                "included": true
-              },
-              {
-                "text": "Meta Ads básico",
-                "included": true
-              },
-              {
-                "text": "Remarketing",
-                "included": true
-              },
-              {
-                "text": "Optimización semanal",
-                "included": true
-              },
-              {
-                "text": "Creatividades incluidas",
-                "included": false
-              }
+              { "text": "Análisis y selección de keywords", "included": true },
+              { "text": "Creación del banner del anuncio", "included": true },
+              { "text": "Segmentación de mercado objetivo", "included": true },
+              { "text": "Lanzamiento, monitoreo y reporte", "included": true },
+              { "text": "Inversión publicitaria no incluida", "included": false }
             ]
           },
           {
-            "nombre": "Performance",
-            "icon": "bar_chart",
-            "precio": "1.290€",
-            "periodo": "/mes",
-            "desc": "Estrategia multicanal con creatividades y optimización diaria",
+            "nombre": "Google YouTube",
+            "icon": "smart_display",
+            "precio": "$220",
+            "periodo": "/campaña",
+            "desc": "Anuncios en video dentro de YouTube",
+            "popular": false,
+            "features": [
+              { "text": "Video de 6, 15 o 20 segundos", "included": true },
+              { "text": "Análisis y segmentación de mercado", "included": true },
+              { "text": "Ideal para nuevos negocios y remarketing", "included": true },
+              { "text": "Lanzamiento, monitoreo y reporte", "included": true },
+              { "text": "Inversión publicitaria no incluida", "included": false }
+            ]
+          },
+          {
+            "nombre": "Meta (FB + IG)",
+            "icon": "thumb_up",
+            "precio": "$100",
+            "periodo": "/campaña",
+            "desc": "Facebook + Instagram Ads con estrategia a medida",
             "popular": true,
             "features": [
-              {
-                "text": "Google + Meta completo",
-                "included": true
-              },
-              {
-                "text": "Creatividades incluidas",
-                "included": true
-              },
-              {
-                "text": "A/B testing continuo",
-                "included": true
-              },
-              {
-                "text": "Dashboard en tiempo real",
-                "included": true
-              },
-              {
-                "text": "Gestor dedicado",
-                "included": true
-              }
+              { "text": "Facebook Ads o Instagram Ads — $80 c/u", "included": true },
+              { "text": "Facebook + Instagram — $100", "included": true },
+              { "text": "Análisis y segmentación de mercado", "included": true },
+              { "text": "Lanzamiento, monitoreo y reporte", "included": true },
+              { "text": "Inversión publicitaria no incluida", "included": false }
             ]
           },
           {
-            "nombre": "Scale",
-            "icon": "rocket_launch",
-            "precio": "2.490€",
-            "periodo": "/mes",
-            "desc": "Para e-commerce y empresas con alto presupuesto publicitario",
+            "nombre": "TikTok Ads",
+            "icon": "music_note",
+            "precio": "$50",
+            "periodo": "/campaña",
+            "desc": "Aprovecha la red en tendencia con anuncios creativos",
             "popular": false,
             "features": [
-              {
-                "text": "Todos los canales",
-                "included": true
-              },
-              {
-                "text": "Performance Max",
-                "included": true
-              },
-              {
-                "text": "Shopping Ads",
-                "included": true
-              },
-              {
-                "text": "Atribución multicanal",
-                "included": true
-              },
-              {
-                "text": "CRO incluido",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Enterprise",
-            "icon": "corporate_fare",
-            "precio": "A medida",
-            "periodo": "",
-            "desc": "Gestión de grandes presupuestos publicitarios",
-            "popular": false,
-            "features": [
-              {
-                "text": "Equipo especializado",
-                "included": true
-              },
-              {
-                "text": "Presupuesto +10K€/mes",
-                "included": true
-              },
-              {
-                "text": "Estrategia omnicanal",
-                "included": true
-              },
-              {
-                "text": "Reunión semanal",
-                "included": true
-              },
-              {
-                "text": "ROI garantizado",
-                "included": true
-              }
+              { "text": "Análisis inicial", "included": true },
+              { "text": "Segmentación de mercado objetivo", "included": true },
+              { "text": "Propuesta de campaña", "included": true },
+              { "text": "Lanzamiento, monitoreo y reporte", "included": true },
+              { "text": "Inversión publicitaria no incluida", "included": false }
             ]
           }
         ]
@@ -851,313 +457,64 @@
       {
         "id": "ia",
         "icon": "smart_toy",
-        "label": "Agentes IA",
+        "label": "Automatización IA",
         "planes": [
           {
-            "nombre": "Chatbot",
-            "icon": "chat",
-            "precio": "490€",
-            "periodo": "/único",
-            "desc": "Chatbot IA básico para atención al cliente 24/7",
-            "popular": false,
-            "features": [
-              {
-                "text": "Chatbot web",
-                "included": true
-              },
-              {
-                "text": "FAQs automatizadas",
-                "included": true
-              },
-              {
-                "text": "Integración web",
-                "included": true
-              },
-              {
-                "text": "Integración CRM",
-                "included": false
-              },
-              {
-                "text": "Flujos avanzados",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Automatización",
+            "nombre": "Configuración (1er mes)",
             "icon": "settings_suggest",
-            "precio": "990€",
-            "periodo": "/único",
-            "desc": "Agente IA con flujos automatizados e integración CRM",
-            "popular": false,
-            "features": [
-              {
-                "text": "Agente multicanal",
-                "included": true
-              },
-              {
-                "text": "Integración CRM",
-                "included": true
-              },
-              {
-                "text": "Flujos condicionales",
-                "included": true
-              },
-              {
-                "text": "Emails automáticos",
-                "included": true
-              },
-              {
-                "text": "IA generativa custom",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Agente Pro",
-            "icon": "smart_toy",
-            "precio": "2.490€",
-            "periodo": "/único",
-            "desc": "Agente IA generativa entrenada con tu negocio",
+            "precio": "$450",
+            "periodo": "/setup",
+            "desc": "Sistema inteligente todo en uno configurado y listo para usar",
             "popular": true,
             "features": [
-              {
-                "text": "IA entrenada custom",
-                "included": true
-              },
-              {
-                "text": "Multicanal (web+WA+email)",
-                "included": true
-              },
-              {
-                "text": "Integraciones ilimitadas",
-                "included": true
-              },
-              {
-                "text": "Panel de control",
-                "included": true
-              },
-              {
-                "text": "Soporte 3 meses",
-                "included": true
-              }
+              { "text": "Automatización con IA + dashboard", "included": true },
+              { "text": "Instalación del agente de IA", "included": true },
+              { "text": "Integración con WhatsApp", "included": true },
+              { "text": "Setup de dashboard y CRM", "included": true },
+              { "text": "Configuración de automatizaciones", "included": true }
             ]
           },
           {
-            "nombre": "Ecosistema",
-            "icon": "api",
-            "precio": "4.990€",
+            "nombre": "Optimización (2º mes)",
+            "icon": "tune",
+            "precio": "$100",
+            "periodo": "/mes",
+            "desc": "Ajustes, seguimiento y organización de tus procesos",
+            "popular": false,
+            "features": [
+              { "text": "Optimización y ajustes del sistema", "included": true },
+              { "text": "Seguimiento de automatizaciones", "included": true },
+              { "text": "Configuración de academia digital", "included": true },
+              { "text": "Soporte básico", "included": true }
+            ]
+          },
+          {
+            "nombre": "Membresía Mensual",
+            "icon": "workspace_premium",
+            "precio": "$130",
+            "periodo": "/mes",
+            "desc": "Uso continuo de la plataforma con todo activo",
+            "popular": false,
+            "features": [
+              { "text": "Acceso al sistema inteligente", "included": true },
+              { "text": "Dashboard, CRM y app móvil", "included": true },
+              { "text": "Automatizaciones activas", "included": true },
+              { "text": "Email marketing y herramientas", "included": true },
+              { "text": "Mantenimiento y soporte", "included": true }
+            ]
+          },
+          {
+            "nombre": "Cursos Online",
+            "icon": "school",
+            "precio": "$350",
             "periodo": "/único",
-            "desc": "Suite de agentes IA integrados en todos tus procesos",
+            "desc": "Creación y organización de tu academia digital",
             "popular": false,
             "features": [
-              {
-                "text": "Múltiples agentes IA",
-                "included": true
-              },
-              {
-                "text": "Ventas + soporte + RRHH",
-                "included": true
-              },
-              {
-                "text": "ERP / API custom",
-                "included": true
-              },
-              {
-                "text": "Analítica de conversaciones",
-                "included": true
-              },
-              {
-                "text": "Soporte 6 meses",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Enterprise",
-            "icon": "corporate_fare",
-            "precio": "A medida",
-            "periodo": "",
-            "desc": "Transformación digital completa con IA para grandes empresas",
-            "popular": false,
-            "features": [
-              {
-                "text": "Consultoría IA estratégica",
-                "included": true
-              },
-              {
-                "text": "Modelos LLM privados",
-                "included": true
-              },
-              {
-                "text": "Integración sistemas legacy",
-                "included": true
-              },
-              {
-                "text": "Formación del equipo",
-                "included": true
-              },
-              {
-                "text": "SLA y mantenimiento",
-                "included": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "content",
-        "icon": "article",
-        "label": "Contenido",
-        "planes": [
-          {
-            "nombre": "Básico",
-            "icon": "edit_note",
-            "precio": "290€",
-            "periodo": "/mes",
-            "desc": "Contenido esencial para mantener activa tu presencia",
-            "popular": false,
-            "features": [
-              {
-                "text": "4 artículos de blog/mes",
-                "included": true
-              },
-              {
-                "text": "SEO on-page",
-                "included": true
-              },
-              {
-                "text": "Copywriting web básico",
-                "included": true
-              },
-              {
-                "text": "Newsletter",
-                "included": false
-              },
-              {
-                "text": "Contenido para RRSS",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Estándar",
-            "icon": "newspaper",
-            "precio": "590€",
-            "periodo": "/mes",
-            "desc": "Estrategia de contenido completa para posicionar tu marca",
-            "popular": false,
-            "features": [
-              {
-                "text": "8 artículos SEO/mes",
-                "included": true
-              },
-              {
-                "text": "Newsletter mensual",
-                "included": true
-              },
-              {
-                "text": "Copywriting para RRSS",
-                "included": true
-              },
-              {
-                "text": "Estrategia de keywords",
-                "included": true
-              },
-              {
-                "text": "Fotografía de producto",
-                "included": false
-              }
-            ]
-          },
-          {
-            "nombre": "Growth",
-            "icon": "trending_up",
-            "precio": "990€",
-            "periodo": "/mes",
-            "desc": "Contenido premium que posiciona y convierte",
-            "popular": true,
-            "features": [
-              {
-                "text": "12 artículos SEO/mes",
-                "included": true
-              },
-              {
-                "text": "Newsletter semanal",
-                "included": true
-              },
-              {
-                "text": "Contenido RRSS completo",
-                "included": true
-              },
-              {
-                "text": "Email marketing",
-                "included": true
-              },
-              {
-                "text": "Fotografía de producto",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Editorial",
-            "icon": "auto_stories",
-            "precio": "1.590€",
-            "periodo": "/mes",
-            "desc": "Producción editorial de alto volumen y calidad",
-            "popular": false,
-            "features": [
-              {
-                "text": "20+ piezas de contenido",
-                "included": true
-              },
-              {
-                "text": "Vídeos cortos incluidos",
-                "included": true
-              },
-              {
-                "text": "Infografías y ebooks",
-                "included": true
-              },
-              {
-                "text": "Podcast/guiones",
-                "included": true
-              },
-              {
-                "text": "Gestor de contenido",
-                "included": true
-              }
-            ]
-          },
-          {
-            "nombre": "Enterprise",
-            "icon": "corporate_fare",
-            "precio": "A medida",
-            "periodo": "",
-            "desc": "Redacción editorial completa para marcas líderes",
-            "popular": false,
-            "features": [
-              {
-                "text": "Equipo editorial dedicado",
-                "included": true
-              },
-              {
-                "text": "Multiidioma",
-                "included": true
-              },
-              {
-                "text": "Estrategia de contenidos",
-                "included": true
-              },
-              {
-                "text": "Distribución en medios",
-                "included": true
-              },
-              {
-                "text": "Analítica de contenido",
-                "included": true
-              }
+              { "text": "Plataforma lista para vender tu curso", "included": true },
+              { "text": "Organización de lecciones y módulos", "included": true },
+              { "text": "Accesos para estudiantes", "included": true },
+              { "text": "Automatización de bienvenida", "included": true }
             ]
           }
         ]
@@ -1165,55 +522,55 @@
     ]
   },
   "porque": {
-    "tag": "Por qué Iniestra",
+    "tag": "Por qué SQ Creative Studio",
     "title": "No somos una agencia",
     "title_highlight": "más",
-    "description": "En un mercado lleno de promesas vacías, nosotros entregamos resultados demostrables respaldados por datos, experiencia y un equipo apasionado.",
-    "founder_name": "Miguel Iniestra",
-    "founder_role": "Fundador & CEO — 10+ años de experiencia",
+    "description": "Ayudamos a negocios y emprendedores a fortalecer su imagen, aumentar su visibilidad y generar resultados a través de estrategias innovadoras de comunicación digital.",
+    "founder_name": "Stephania",
+    "founder_role": "Fundadora — SQ Creative Studio",
     "features": [
       {
         "icon": "verified",
-        "title": "Experiencia Comprobada",
-        "desc": "Más de 500 proyectos entregados con éxito"
+        "title": "Estrategia a medida",
+        "desc": "Cada cuenta recibe su propia propuesta de diseño"
       },
       {
-        "icon": "timer",
-        "title": "Resultados en 90 Días",
-        "desc": "Primeros resultados visibles en el primer trimestre"
+        "icon": "bolt",
+        "title": "Entrega el mismo día",
+        "desc": "Iniciamos al contratar, con tu información completa"
       },
       {
         "icon": "groups",
-        "title": "Equipo Profesional",
-        "desc": "Especialistas en cada área, sin generalistas"
+        "title": "Equipo asignado",
+        "desc": "Community manager, trafficker y video maker para ti"
       },
       {
-        "icon": "thumb_up",
-        "title": "Satisfacción 100%",
-        "desc": "98% de clientes renuevan con nosotros"
+        "icon": "smart_toy",
+        "title": "Tecnología con IA",
+        "desc": "Automatización y organización digital todo en uno"
       }
     ]
   },
   "stats": [
     {
-      "target": 500,
-      "suffix": "+",
-      "label": "Proyectos completados"
-    },
-    {
-      "target": 98,
-      "suffix": "%",
-      "label": "Tasa de retención"
-    },
-    {
       "target": 15,
-      "suffix": "",
-      "label": "Países atendidos"
+      "suffix": "+",
+      "label": "Diseños al mes por red"
     },
     {
-      "target": 10,
-      "suffix": "M+",
-      "label": "En ingresos generados"
+      "target": 100,
+      "suffix": "%",
+      "label": "Contenido a medida"
+    },
+    {
+      "target": 24,
+      "suffix": "/7",
+      "label": "Automatización con IA"
+    },
+    {
+      "target": 3,
+      "suffix": "",
+      "label": "Redes en el plan Completo"
     }
   ],
   "portafolio": {
@@ -1222,46 +579,46 @@
     "title_highlight": "en resultados",
     "items": [
       {
-        "categoria": "Videomarketing",
-        "titulo": "Campaña viral de marca",
-        "color1": "#1a1a2e",
-        "color2": "#16213e",
-        "icon": "videocam"
-      },
-      {
-        "categoria": "Diseño de marca",
-        "titulo": "Identidad visual premium",
-        "color1": "#1a0a00",
-        "color2": "#2d1000",
-        "icon": "brand_awareness"
-      },
-      {
         "categoria": "Redes Sociales",
-        "titulo": "Campaña social +300% alcance",
-        "color1": "#0a1a0a",
-        "color2": "#102010",
+        "titulo": "Gestión integral de redes",
+        "color1": "#2b1f1f",
+        "color2": "#6a1f2b",
         "icon": "thumb_up"
       },
       {
-        "categoria": "Desarrollo Web",
-        "titulo": "E-commerce de alto rendimiento",
-        "color1": "#0d0d1a",
-        "color2": "#1a1a35",
-        "icon": "code"
+        "categoria": "Video Marketing",
+        "titulo": "Reels y contenido viral",
+        "color1": "#3d2d2d",
+        "color2": "#6a1f2b",
+        "icon": "videocam"
       },
       {
-        "categoria": "Identidad Visual",
-        "titulo": "Rebranding completo",
-        "color1": "#1a0d0d",
-        "color2": "#2e1515",
+        "categoria": "Creadores UGC",
+        "titulo": "Videos con personas reales",
+        "color1": "#46332f",
+        "color2": "#8a5a3c",
+        "icon": "record_voice_over"
+      },
+      {
+        "categoria": "Diseño de Marca",
+        "titulo": "Identidad visual premium",
+        "color1": "#2b1f1f",
+        "color2": "#c7a36a",
         "icon": "style"
       },
       {
-        "categoria": "Fotografía",
-        "titulo": "Fotografía de producto premium",
-        "color1": "#0d1a15",
-        "color2": "#102818",
-        "icon": "photo_camera"
+        "categoria": "Desarrollo Web",
+        "titulo": "Sitios profesionales en WordPress",
+        "color1": "#352727",
+        "color2": "#6a1f2b",
+        "icon": "code"
+      },
+      {
+        "categoria": "Automatización IA",
+        "titulo": "Sistema digital todo en uno",
+        "color1": "#3d2d2d",
+        "color2": "#46332f",
+        "icon": "smart_toy"
       }
     ]
   },
@@ -1271,22 +628,22 @@
     "title_highlight": "respaldan",
     "items": [
       {
-        "texto": "Iniestra transformó completamente nuestra presencia digital. En 3 meses triplicamos nuestras ventas online y la web es espectacular.",
-        "nombre": "Carlos Amador",
-        "rol": "CEO, TechRetail",
-        "iniciales": "CA"
+        "texto": "SQ Creative Studio transformó nuestras redes. El contenido es hermoso y por fin tenemos una línea gráfica coherente que nos representa.",
+        "nombre": "Marlene Ríos",
+        "rol": "Dueña, Boutique Aurora",
+        "iniciales": "MR"
       },
       {
-        "texto": "El equipo de Iniestra entiende realmente lo que necesitas. Las campañas de Google Ads nos generan un ROI constante del 280%.",
-        "nombre": "María López",
-        "rol": "Directora de Marketing, ModaFit",
-        "iniciales": "ML"
+        "texto": "Los videos UGC nos dispararon las ventas. El equipo entiende la marca y entrega rapidísimo, justo como prometen.",
+        "nombre": "Daniel Ortega",
+        "rol": "Fundador, FitBox",
+        "iniciales": "DO"
       },
       {
-        "texto": "Probamos varias agencias y ninguna como Iniestra. Profesionales, creativos y con resultados tangibles desde el primer mes.",
-        "nombre": "Javier Prada",
-        "rol": "Fundador, Agro Digital",
-        "iniciales": "JP"
+        "texto": "La automatización con IA nos cambió la operación. Ahora respondemos a clientes 24/7 y todo está organizado en un solo lugar.",
+        "nombre": "Paola Méndez",
+        "rol": "Gerente, Clínica Bienestar",
+        "iniciales": "PM"
       }
     ]
   },
@@ -1294,31 +651,31 @@
     "tag": "Quiénes somos",
     "title": "Una agencia con",
     "title_highlight": "propósito",
-    "descripcion1": "Somos un equipo multidisciplinar con sede en Madrid, apasionado por crear experiencias digitales que generan impacto real. Fundada en 2014, hemos crecido de la mano de más de 500 clientes en 15 países.",
-    "descripcion2": "Nuestra misión es democratizar el marketing digital de alta calidad para empresas que quieren crecer de verdad.",
-    "fundacion": "2014",
-    "paises": "15+",
-    "clientes": "500+",
+    "descripcion1": "Somos SQ Creative Studio, una agencia de marketing digital enfocada en ayudar a negocios y emprendedores a fortalecer su imagen, aumentar su visibilidad y generar resultados a través de estrategias innovadoras de comunicación digital.",
+    "descripcion2": "Gestionamos redes sociales, creamos y producimos contenido audiovisual, grabamos y editamos reels, producimos videos UGC, automatizamos con inteligencia artificial y lanzamos campañas orientadas a resultados.",
+    "fundacion": "8+",
+    "paises": "24/7",
+    "clientes": "100%",
     "equipo": [
       {
-        "nombre": "Miguel Iniestra",
-        "rol": "CEO & Estrategia",
-        "iniciales": "MI"
+        "nombre": "Stephania",
+        "rol": "Fundadora & Dirección Creativa",
+        "iniciales": "ST"
       },
       {
-        "nombre": "Laura Sánchez",
-        "rol": "Directora Creativa",
-        "iniciales": "LS"
+        "nombre": "Community Manager",
+        "rol": "Gestión de redes y contenidos",
+        "iniciales": "CM"
       },
       {
-        "nombre": "Carlos Ruiz",
-        "rol": "Head of Dev",
-        "iniciales": "CR"
+        "nombre": "Trafficker",
+        "rol": "Campañas publicitarias",
+        "iniciales": "TF"
       },
       {
-        "nombre": "Ana Torres",
-        "rol": "Performance Manager",
-        "iniciales": "AT"
+        "nombre": "Video Maker",
+        "rol": "Producción audiovisual",
+        "iniciales": "VM"
       }
     ]
   },
@@ -1328,36 +685,36 @@
     "title_highlight": "frecuentes",
     "items": [
       {
-        "pregunta": "¿Cuánto cuesta trabajar con Iniestra?",
-        "respuesta": "Cada proyecto es único. Ofrecemos presupuestos a medida según el alcance, objetivos y urgencia. Contáctanos para una valoración gratuita sin compromiso. Trabajamos desde proyectos puntuales hasta retainers mensuales."
+        "pregunta": "¿Cuánto tardan en entregar?",
+        "respuesta": "Iniciamos el mismo día de la contratación cuando tenemos toda tu información completa. Los tiempos varían por servicio: diseño de marca 5 a 10 días, videos 2 a 10 días y sitios web de 5 a 20 días."
       },
       {
-        "pregunta": "¿Cuánto tarda en ejecutarse un proyecto?",
-        "respuesta": "Depende del tipo de proyecto. Una landing page puede estar lista en 1-2 semanas; un e-commerce completo puede tomar 4-8 semanas. Siempre establecemos un calendario claro desde el inicio."
+        "pregunta": "¿Qué redes sociales gestionan?",
+        "respuesta": "Instagram, Facebook y TikTok. El plan Esencial cubre 1 red, el Indispensable 2 redes y el Completo las tres. De los 15 diseños incluidos por red, hasta 6 pueden ser videos."
       },
       {
-        "pregunta": "¿Trabajáis con empresas de cualquier tamaño?",
-        "respuesta": "Sí. Hemos trabajado con startups en fase inicial y con multinacionales. Lo que importa es que tengas ganas de crecer y un proyecto serio. Adaptamos nuestros servicios a tu realidad."
+        "pregunta": "¿Las campañas incluyen la inversión publicitaria?",
+        "respuesta": "No. El precio del servicio cubre la estrategia, configuración, lanzamiento, monitoreo y reporte. La inversión en anuncios (el presupuesto que se paga a Google, Meta o TikTok) corre por tu cuenta."
       },
       {
-        "pregunta": "¿Qué incluye el servicio de Desarrollo Web?",
-        "respuesta": "Diseño UX/UI, desarrollo front y back, integración de CMS, optimización de velocidad, SEO técnico, versión mobile, y soporte post-lanzamiento. Todo en un solo servicio."
+        "pregunta": "¿Con qué plataformas trabajan?",
+        "respuesta": "Los planes de redes y diseño se trabajan en Canva, y los sitios web en WordPress con plantillas Divi profesionales o con un diseño totalmente a la medida."
       },
       {
-        "pregunta": "¿Puedo ver ejemplos de trabajos anteriores?",
-        "respuesta": "Sí, en la sección de portafolio puedes ver una selección de nuestros proyectos. También podemos enviarte casos de éxito más detallados según tu sector."
+        "pregunta": "¿Qué incluye el Sistema Inteligente de Automatización?",
+        "respuesta": "Automatización con IA, dashboard del negocio, CRM, integración con WhatsApp, mensajes masivos, email marketing, agenda de citas, academias online, reportes y más. Te lo entregamos configurado y listo para usar."
       },
       {
-        "pregunta": "¿Ofrecéis mantenimiento después del proyecto?",
-        "respuesta": "Sí. Disponemos de planes de mantenimiento mensual que incluyen actualizaciones, soporte técnico, monitoreo de rendimiento y pequeños cambios. No te dejamos solo después de la entrega."
-      },
-      {
-        "pregunta": "¿Trabajáis en remoto o presencial?",
-        "respuesta": "Trabajamos principalmente en remoto, lo que nos permite atender clientes de todo el mundo. Tenemos oficina en Madrid para reuniones presenciales si lo prefieres."
+        "pregunta": "¿Hacen videos UGC?",
+        "respuesta": "Sí. Producimos videos publicitarios con personas reales: diseñamos el script vendedor, contratamos al creador, editamos el video y preparamos la propuesta de campaña con un trafficker para el lanzamiento."
       },
       {
         "pregunta": "¿Cómo es el proceso de trabajo?",
-        "respuesta": "1) Reunión de briefing gratuita → 2) Propuesta y presupuesto → 3) Kickoff y planificación → 4) Ejecución con revisiones periódicas → 5) Entrega y formación → 6) Soporte post-lanzamiento."
+        "respuesta": "1) Contratas en el sitio o en una reunión → 2) Agendamos una videollamada para conocer tu negocio → 3) Te enviamos la estrategia y los guiones → 4) Presentamos 2 propuestas de diseño y eliges una → 5) Despegamos tu negocio con publicaciones y publicidad."
+      },
+      {
+        "pregunta": "¿Atienden otros países?",
+        "respuesta": "Sí, trabajamos de forma remota para clientes de distintos países. Nuestro horario de atención es de lunes a sábado, de 8:00 a 18:00 (GMT-6, CDMX)."
       }
     ]
   },
@@ -1365,34 +722,34 @@
     "tag": "Contacto",
     "title": "HABLEMOS DE TU",
     "title_highlight": "proyecto",
-    "subtitulo": "Primera consulta siempre gratuita",
-    "telefono": "+34 639 494 000",
-    "email": "hola@iniestra.agency",
-    "ubicacion": "Madrid, España",
-    "horario": "Lun–Vie, 9:00–18:00",
-    "badge_title": "Respuesta en 24h",
-    "badge_desc": "Respondemos a todos los mensajes en menos de 24 horas laborables, garantizado.",
+    "subtitulo": "Primera consulta sin compromiso",
+    "telefono": "+1 (954) 478 7920",
+    "email": "ugc.bystephania@gmail.com",
+    "ubicacion": "Atención online · GMT-6 (CDMX)",
+    "horario": "Lun–Sáb, 8:00–18:00",
+    "badge_title": "WhatsApp directo",
+    "badge_desc": "Escríbenos por WhatsApp al +1 (954) 478 7920 y te atendemos en nuestro horario de lunes a sábado.",
     "servicios_form": [
-      "Desarrollo Web",
       "Redes Sociales",
+      "Creadores UGC",
       "Diseño Gráfico",
-      "Videomarketing",
-      "Campañas Google & Meta",
-      "Agentes IA",
-      "Contenido & Post",
-      "Varios servicios"
+      "Desarrollo Web",
+      "Video Marketing",
+      "Google Ads",
+      "Facebook & TikTok Ads",
+      "Automatización con IA"
     ]
   },
   "cta": {
-    "tag": "¿Listo para crecer?",
-    "title": "Hablemos de tu próximo",
-    "title_highlight": "gran proyecto",
-    "description": "No pierdas más tiempo. Agenda una consultoría gratuita y descubre cómo podemos transformar tu presencia digital.",
-    "cta_primary": "Agendar consultoría gratuita",
+    "tag": "¿List@ para crecer?",
+    "title": "Despega tu negocio",
+    "title_highlight": "con SQ Creative Studio",
+    "description": "Agenda una videollamada y diseñamos juntos la estrategia perfecta para que tu marca brille en digital.",
+    "cta_primary": "Agendar videollamada",
     "cta_secondary": "Ver servicios"
   },
   "footer": {
-    "tagline": "Agencia de marketing digital especializada en resultados. Transformamos ideas en crecimiento real.",
-    "copyright": "© 2025 Iniestra Agency. Todos los derechos reservados."
+    "tagline": "Agencia de marketing digital: redes sociales, contenido audiovisual, videos UGC, automatización con IA y campañas que generan resultados.",
+    "copyright": "© 2026 SQ Creative Studio · by Stephania. Todos los derechos reservados."
   }
 }

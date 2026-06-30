@@ -34,9 +34,9 @@ const s = site;
           <div class="orb-ring"></div>
           <div class="orb-ring"></div>
           <div class="orb-ring"></div>
-          <div style="position:absolute;inset:15%;border-radius:50%;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.5rem">
-            <span class="material-symbols-outlined" style="font-size:2.5rem;color:var(--orange)">bolt</span>
-            <span style="font-size:.75rem;color:var(--gray-400);font-weight:600">Iniestra Agency</span>
+          <div style="position:absolute;inset:15%;border-radius:50%;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.75rem;padding:2rem;text-align:center">
+            <img src="/isotipo-blanco.png" alt="SQ Creative Studio" style="width:96px;height:auto" />
+            <span style="font-size:.75rem;color:var(--gray-400);font-weight:600;letter-spacing:.04em">SQ Creative Studio</span>
           </div>
           <div class="orb-dot"></div>
           <div class="stat-badge"><div class="dot"></div>{s.hero.badge1}</div>
@@ -48,28 +48,28 @@ const s = site;
 </section>
 
 <!-- ══ VALUE PROP ══ -->
-<div style="background:#fff;padding:5rem 1.5rem">
+<div style="background:var(--cream);padding:5rem 1.5rem">
   <div class="container value-grid">
     <div class="reveal">
-      <span class="label-tag tag-dark">{s.value.tag}</span>
-      <h2 class="headline-lg" style="margin-top:.75rem;color:#000">
-        {s.value.title} <span style="color:var(--orange);font-style:italic">{s.value.title_highlight}</span>
+      <span class="label-tag" style="background:rgba(var(--vino-rgb),.1);color:var(--vino);border:1px solid rgba(var(--vino-rgb),.2)">{s.value.tag}</span>
+      <h2 class="headline-lg" style="margin-top:.75rem;color:var(--vino)">
+        {s.value.title} <span style="color:#a07c3c;font-style:italic">{s.value.title_highlight}</span>
       </h2>
-      <p style="color:#555;margin-top:1rem;line-height:1.75">{s.value.description}</p>
-      <a href="#servicios" style="display:inline-flex;align-items:center;gap:.4rem;color:var(--orange);font-weight:700;font-size:.875rem;margin-top:1.5rem">
+      <p style="color:#5A4641;margin-top:1rem;line-height:1.75">{s.value.description}</p>
+      <a href="#servicios" style="display:inline-flex;align-items:center;gap:.4rem;color:var(--vino);font-weight:700;font-size:.875rem;margin-top:1.5rem">
         {s.value.link_text}
         <span class="material-symbols-outlined" style="font-size:1rem">arrow_forward</span>
       </a>
     </div>
     <div style="display:flex;flex-direction:column;gap:.75rem" class="stagger">
       {s.value.features.map(f => (
-        <div style="display:flex;gap:1rem;align-items:flex-start;padding:1rem;border-radius:14px;background:#f9f9f9;border:1px solid #eee">
-          <div style="width:40px;height:40px;border-radius:10px;background:var(--orange-dim);display:flex;align-items:center;justify-content:center;flex-shrink:0">
-            <span class="material-symbols-outlined" style="color:var(--orange)">{f.icon}</span>
+        <div style="display:flex;gap:1rem;align-items:flex-start;padding:1rem;border-radius:14px;background:#fff;border:1px solid rgba(var(--vino-rgb),.12)">
+          <div style="width:40px;height:40px;border-radius:10px;background:rgba(var(--vino-rgb),.08);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+            <span class="material-symbols-outlined" style="color:var(--vino)">{f.icon}</span>
           </div>
           <div>
-            <div style="font-weight:700;color:#000;font-size:.9rem;margin-bottom:.2rem">{f.title}</div>
-            <div style="font-size:.8rem;color:#666">{f.desc}</div>
+            <div style="font-weight:700;color:var(--vino);font-size:.9rem;margin-bottom:.2rem">{f.title}</div>
+            <div style="font-size:.8rem;color:#6b5650">{f.desc}</div>
           </div>
         </div>
       ))}
@@ -249,17 +249,17 @@ const s = site;
       <div style="display:flex;gap:1.5rem;margin-top:2rem;flex-wrap:wrap;align-items:center">
         <div>
           <div style="font-family:var(--font-display);font-size:2rem;color:var(--orange)">{s.nosotros.fundacion}</div>
-          <div style="font-size:.8rem;color:var(--gray-500)">Fundación</div>
+          <div style="font-size:.8rem;color:var(--gray-500)">Servicios</div>
         </div>
         <div style="width:1px;height:40px;background:var(--border)"></div>
         <div>
           <div style="font-family:var(--font-display);font-size:2rem;color:var(--orange)">{s.nosotros.paises}</div>
-          <div style="font-size:.8rem;color:var(--gray-500)">Países</div>
+          <div style="font-size:.8rem;color:var(--gray-500)">Automatización</div>
         </div>
         <div style="width:1px;height:40px;background:var(--border)"></div>
         <div>
           <div style="font-family:var(--font-display);font-size:2rem;color:var(--orange)">{s.nosotros.clientes}</div>
-          <div style="font-size:.8rem;color:var(--gray-500)">Clientes</div>
+          <div style="font-size:.8rem;color:var(--gray-500)">A medida</div>
         </div>
       </div>
     </div>

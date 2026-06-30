@@ -16,9 +16,10 @@ const { title = site.meta.title, description = site.meta.description } = Astro.p
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <link rel="icon" type="image/png" href="/isotipo-blanco.png" />
+  <link rel="apple-touch-icon" href="/isotipo-blanco.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
 </head>
 <body>
@@ -30,14 +31,8 @@ const { title = site.meta.title, description = site.meta.description } = Astro.p
   <!-- Nav -->
   <header>
     <nav class="nav-pill">
-      <a href="/" class="nav-logo">
-        <div class="nav-logo-icon">
-          <span class="material-symbols-outlined" style="font-size:1.1rem">bolt</span>
-        </div>
-        <div>
-          <div style="line-height:1">{site.nav.brand}</div>
-          <div style="font-size:.65rem;font-weight:500;color:var(--gray-500);line-height:1">{site.nav.subbrand}</div>
-        </div>
+      <a href="/" class="nav-logo" aria-label={site.nav.brand}>
+        <img src="/logo-blanco.png" alt={site.nav.brand} style="height:38px;width:auto;display:block" />
       </a>
 
       <ul class="nav-links">
@@ -78,19 +73,15 @@ const { title = site.meta.title, description = site.meta.description } = Astro.p
     <div style="display:grid;gap:2.5rem;max-width:72rem;margin:0 auto">
       <div style="display:grid;gap:2.5rem" class="footer-grid-inner">
         <div>
-          <a href="/" class="nav-logo" style="display:inline-flex">
-            <div class="nav-logo-icon"><span class="material-symbols-outlined" style="font-size:1.1rem">bolt</span></div>
-            <div>
-              <div style="line-height:1;font-weight:700">{site.nav.brand}</div>
-              <div style="font-size:.65rem;color:var(--gray-500);line-height:1;font-weight:500">{site.nav.subbrand}</div>
-            </div>
+          <a href="/" class="nav-logo" style="display:inline-flex" aria-label={site.nav.brand}>
+            <img src="/logo-blanco.png" alt={site.nav.brand} style="height:54px;width:auto;display:block" />
           </a>
           <p style="color:var(--gray-400);font-size:.875rem;line-height:1.7;margin:.75rem 0 1.25rem">{site.footer.tagline}</p>
           <div class="footer-social">
-            <a href="#" aria-label="Instagram">In</a>
-            <a href="#" aria-label="LinkedIn">Li</a>
-            <a href="#" aria-label="X/Twitter">X</a>
-            <a href="#" aria-label="YouTube">Yt</a>
+            <a href="https://instagram.com/sqcreative.studio" target="_blank" rel="noopener" aria-label="Instagram">Ig</a>
+            <a href="https://www.tiktok.com/@sqcreative.studio" target="_blank" rel="noopener" aria-label="TikTok">Tk</a>
+            <a href={`https://wa.me/${site.contacto.telefono.replace(/[^0-9]/g,'')}`} target="_blank" rel="noopener" aria-label="WhatsApp">Wa</a>
+            <a href={`mailto:${site.contacto.email}`} aria-label="Email">@</a>
           </div>
         </div>
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2rem">

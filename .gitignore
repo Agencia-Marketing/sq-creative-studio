@@ -22,3 +22,14 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# claude code local config
+.claude/
+
+# brand source material (reference only — fonts used by the site live in public/fonts/)
+*.pdf
+Tipografías/
+
+# duplicate logo originals at root (canonical copies live in public/)
+/isotipo-blanco.png
+/logo-blanco.png
