@@ -2,7 +2,7 @@
 
 Sitio web one-page de **SQ Creative Studio** *(by Stephania)*, agencia de marketing digital especializada en gestión de redes sociales, contenido audiovisual, videos UGC, automatización con IA y campañas publicitarias.
 
-Construido con **Astro** + **Tailwind CSS** y editable mediante **TinaCMS**.
+Construido con **Astro** + **Tailwind CSS**.
 
 - **Repositorio:** https://github.com/Agencia-Marketing/sq-creative-studio
 - **Contacto:** ugc.bystephania@gmail.com · WhatsApp +1 (954) 478 7920 · [@sqcreative.studio](https://instagram.com/sqcreative.studio)
@@ -47,7 +47,7 @@ Cargadas localmente como `@font-face` desde [`public/fonts/`](public/fonts):
 src/content/site.json
 ```
 
-Es editable sin tocar código desde el panel de **TinaCMS** (`/admin`), cuyo esquema está en [`tina/config.ts`](tina/config.ts). La estructura del JSON y el esquema de Tina están sincronizados: si añades/quitas campos en uno, actualiza el otro.
+Las páginas Astro lo importan directamente, así que para cambiar cualquier texto o precio basta con editar ese JSON y recompilar.
 
 ### Servicios y precios
 
@@ -71,7 +71,6 @@ Los planes provienen del **Catálogo 2026** (precios en USD) y están en `site.j
 /
 ├── public/
 │   ├── fonts/                 # Keira + Asap (usadas por el sitio)
-│   ├── admin/                 # Panel TinaCMS compilado
 │   ├── logo-blanco.png
 │   └── isotipo-blanco.png
 ├── src/
@@ -82,7 +81,6 @@ Los planes provienen del **Catálogo 2026** (precios en USD) y están en `site.j
 │   │   ├── privacidad/
 │   │   └── terminos/
 │   └── styles/global.css      # Paleta, tipografías y estilos
-├── tina/config.ts             # Esquema del CMS
 └── package.json
 ```
 
@@ -97,19 +95,9 @@ Todos se ejecutan desde la raíz del proyecto:
 | Comando | Acción |
 | :-- | :-- |
 | `npm install` | Instala dependencias |
-| `npm run dev` | Servidor de desarrollo con TinaCMS en `localhost:4321` |
-| `npm run build` | Compila TinaCMS + el sitio a `./dist/` |
+| `npm run dev` | Servidor de desarrollo en `localhost:4321` |
+| `npm run build` | Compila el sitio a `./dist/` |
 | `npm run preview` | Previsualiza la build de producción |
-
-### Variables de entorno (TinaCMS Cloud)
-
-Para usar el CMS en la nube se requieren (en `.env`, no versionado):
-
-```
-TINA_CLIENT_ID=...
-TINA_TOKEN=...
-GITHUB_BRANCH=main
-```
 
 ---
 
