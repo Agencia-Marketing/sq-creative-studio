@@ -179,35 +179,90 @@ const s = site;
   </div>
 </div>
 
-<!-- ══ PORTFOLIO ══ -->
+<!-- ══ PORTFOLIO / UGC ══ -->
 <section id="portafolio">
   <div class="container">
     <div class="section-header reveal">
       <span class="label-tag tag-orange">
-        <span class="material-symbols-outlined" style="font-size:.9rem">photo_library</span>
+        <span class="material-symbols-outlined" style="font-size:.9rem">play_circle</span>
         {s.portafolio.tag}
       </span>
       <h2 class="headline-lg" style="margin-top:.75rem">
         {s.portafolio.title} <span class="highlight-text">{s.portafolio.title_highlight}</span>
       </h2>
     </div>
-    <div class="portfolio-grid stagger">
+    <div class="ugc-grid stagger">
       {s.portafolio.items.map(item => (
-        <div class="portfolio-item">
-          <div class="portfolio-placeholder" style={`background:linear-gradient(135deg,${item.color1},${item.color2})`}>
-            <span class="material-symbols-outlined">{item.icon}</span>
-          </div>
+        <button type="button" class="ugc-item" data-video={item.video} onclick="openUgc(this)" aria-label={`Ver: ${item.titulo}`}>
+          <video class="ugc-video" src={item.video} poster={item.poster || undefined} muted loop playsinline preload="metadata"></video>
+          <span class="ugc-play"><span class="material-symbols-outlined">play_arrow</span></span>
           <div class="portfolio-overlay">
             <div>
               <span class="label-tag tag-orange" style="font-size:.65rem;display:inline-flex;margin-bottom:.5rem">{item.categoria}</span>
               <h3 style="font-family:var(--font-display);font-size:1.1rem">{item.titulo}</h3>
             </div>
           </div>
-        </div>
+        </button>
       ))}
     </div>
   </div>
+
+  <!-- Lightbox UGC -->
+  <div id="ugcLightbox" class="ugc-lightbox" onclick="closeUgc(event)">
+    <button class="ugc-close" type="button" aria-label="Cerrar" onclick="closeUgc(event)">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <video id="ugcLightboxVideo" class="ugc-lightbox-video" controls playsinline></video>
+  </div>
 </section>
+
+<script is:inline>
+  // ── Galería UGC: reproducir al pasar el cursor / al entrar en pantalla
+  (function(){
+    const cards = document.querySelectorAll('.ugc-item');
+    cards.forEach(card => {
+      const vid = card.querySelector('.ugc-video');
+      if(!vid) return;
+      card.addEventListener('mouseenter', () => { vid.play().catch(()=>{}); });
+      card.addEventListener('mouseleave', () => { vid.pause(); vid.currentTime = 0; });
+    });
+    // Autoplay silencioso en móvil cuando el video entra en pantalla
+    if('IntersectionObserver' in window){
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          const vid = e.target.querySelector('.ugc-video');
+          if(!vid) return;
+          if(e.isIntersecting) vid.play().catch(()=>{});
+          else { vid.pause(); }
+        });
+      }, { threshold: .6 });
+      cards.forEach(c => io.observe(c));
+    }
+  })();
+
+  // ── Lightbox: abrir en grande con sonido
+  function openUgc(btn){
+    const src = btn.getAttribute('data-video');
+    const box = document.getElementById('ugcLightbox');
+    const v = document.getElementById('ugcLightboxVideo');
+    v.src = src; v.muted = false; v.currentTime = 0;
+    box.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    v.play().catch(()=>{});
+  }
+  function closeUgc(e){
+    const box = document.getElementById('ugcLightbox');
+    const v = document.getElementById('ugcLightboxVideo');
+    // si se hace clic dentro del video, no cerrar (salvo el botón de cerrar)
+    if(e && e.target && e.target.closest('.ugc-lightbox-video')) return;
+    box.classList.remove('open');
+    document.body.style.overflow = '';
+    v.pause(); v.removeAttribute('src'); v.load();
+  }
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeUgc(); });
+  window.openUgc = openUgc;
+  window.closeUgc = closeUgc;
+</script>
 
 <!-- ══ TESTIMONIOS ══ -->
 <section style="background:var(--bg-card);padding:6rem 1.5rem">

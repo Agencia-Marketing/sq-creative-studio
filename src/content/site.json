@@ -574,51 +574,45 @@
     }
   ],
   "portafolio": {
-    "tag": "Portafolio",
-    "title": "IDEAS QUE SE CONVIERTEN",
-    "title_highlight": "en resultados",
+    "tag": "Portafolio UGC",
+    "title": "CONTENIDO QUE",
+    "title_highlight": "conecta y vende",
     "items": [
       {
-        "categoria": "Redes Sociales",
-        "titulo": "Gestión integral de redes",
-        "color1": "#2b1f1f",
-        "color2": "#6a1f2b",
-        "icon": "thumb_up"
-      },
-      {
-        "categoria": "Video Marketing",
-        "titulo": "Reels y contenido viral",
-        "color1": "#3d2d2d",
-        "color2": "#6a1f2b",
-        "icon": "videocam"
+        "categoria": "Creadores UGC",
+        "titulo": "Reseña de producto",
+        "video": "/videos/ugc-1.mp4",
+        "poster": ""
       },
       {
         "categoria": "Creadores UGC",
-        "titulo": "Videos con personas reales",
-        "color1": "#46332f",
-        "color2": "#8a5a3c",
-        "icon": "record_voice_over"
+        "titulo": "Unboxing",
+        "video": "/videos/ugc-2.mp4",
+        "poster": ""
       },
       {
-        "categoria": "Diseño de Marca",
-        "titulo": "Identidad visual premium",
-        "color1": "#2b1f1f",
-        "color2": "#c7a36a",
-        "icon": "style"
+        "categoria": "Video Marketing",
+        "titulo": "Reel para redes",
+        "video": "/videos/ugc-3.mp4",
+        "poster": ""
       },
       {
-        "categoria": "Desarrollo Web",
-        "titulo": "Sitios profesionales en WordPress",
-        "color1": "#352727",
-        "color2": "#6a1f2b",
-        "icon": "code"
+        "categoria": "Creadores UGC",
+        "titulo": "Testimonio de cliente",
+        "video": "/videos/ugc-4.mp4",
+        "poster": ""
       },
       {
-        "categoria": "Automatización IA",
-        "titulo": "Sistema digital todo en uno",
-        "color1": "#3d2d2d",
-        "color2": "#46332f",
-        "icon": "smart_toy"
+        "categoria": "Video Marketing",
+        "titulo": "Antes y después",
+        "video": "/videos/ugc-5.mp4",
+        "poster": ""
+      },
+      {
+        "categoria": "Creadores UGC",
+        "titulo": "Demostración de uso",
+        "video": "/videos/ugc-6.mp4",
+        "poster": ""
       }
     ]
   },

@@ -1,0 +1,40 @@
+VIDEOS UGC DEL PORTAFOLIO
+=========================
+
+Coloca aquí tus videos UGC con estos nombres exactos:
+
+  ugc-1.mp4
+  ugc-2.mp4
+  ugc-3.mp4
+  ugc-4.mp4
+  ugc-5.mp4
+  ugc-6.mp4
+
+Cada uno corresponde a una tarjeta de la galería (sección "Portafolio").
+Los títulos y categorías de cada tarjeta se editan en:
+
+  src/content/site.json  ->  "portafolio" -> "items"
+
+CÓMO AÑADIR, QUITAR O RENOMBRAR VIDEOS
+--------------------------------------
+Edita la lista "items" en site.json. Cada item:
+
+  {
+    "categoria": "Creadores UGC",     // etiqueta superior
+    "titulo": "Reseña de producto",   // título que aparece al pasar el cursor
+    "video": "/videos/ugc-1.mp4",     // ruta del archivo (siempre empieza con /videos/)
+    "poster": ""                      // opcional: imagen de portada, ej "/videos/ugc-1.jpg"
+  }
+
+- Para AÑADIR un video: copia el .mp4 aquí y agrega un nuevo item a la lista.
+- Para QUITAR uno: borra su item de la lista (y opcionalmente el .mp4).
+- El nombre del archivo puede ser el que quieras, siempre que coincida con el campo "video".
+
+RECOMENDACIONES
+---------------
+- Formato: MP4 (códec H.264 / AAC) — es el más compatible.
+- Orientación: vertical 9:16 (como los Reels/TikTok).
+- Peso: comprime los clips (idealmente < 8 MB cada uno) para que el sitio cargue rápido.
+- Portada (poster): si no la pones, se usa el primer fotograma del video.
+
+Tras añadir/cambiar videos, vuelve a compilar con:  npm run build
