@@ -157,9 +157,8 @@ section { padding:6rem 1.5rem; }
 .stat-label  { font-size:.8rem; color:rgba(255,255,255,.75); font-weight:600; margin-top:.25rem; }
 
 /* Portfolio / UGC video gallery */
-.ugc-grid { display:grid; gap:1rem; grid-template-columns:repeat(2,1fr); }
-@media(min-width:640px)  { .ugc-grid { grid-template-columns:repeat(3,1fr); } }
-@media(min-width:1024px) { .ugc-grid { grid-template-columns:repeat(4,1fr); } }
+.ugc-grid { display:grid; gap:1rem; grid-template-columns:repeat(2,1fr); max-width:56rem; margin:0 auto; }
+@media(min-width:640px) { .ugc-grid { grid-template-columns:repeat(3,1fr); } }
 .ugc-item { position:relative; overflow:hidden; border-radius:20px; aspect-ratio:9/16; background:var(--bg-card); border:1px solid var(--border); cursor:pointer; padding:0; width:100%; display:block; font-family:inherit; }
 .ugc-item:hover { border-color:rgba(var(--orange-rgb),.4); }
 .ugc-item:hover .portfolio-overlay { opacity:1; }

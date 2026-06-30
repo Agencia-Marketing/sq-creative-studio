@@ -580,38 +580,20 @@
     "items": [
       {
         "categoria": "Creadores UGC",
-        "titulo": "Reseña de producto",
-        "video": "/videos/ugc-1.mp4",
+        "titulo": "DCA Nutrition",
+        "video": "/videos/dca-nutrition.mp4",
         "poster": ""
       },
       {
         "categoria": "Creadores UGC",
-        "titulo": "Unboxing",
-        "video": "/videos/ugc-2.mp4",
+        "titulo": "Go Bedo USA",
+        "video": "/videos/go-bedo-usa.mp4",
         "poster": ""
       },
       {
         "categoria": "Video Marketing",
-        "titulo": "Reel para redes",
-        "video": "/videos/ugc-3.mp4",
-        "poster": ""
-      },
-      {
-        "categoria": "Creadores UGC",
-        "titulo": "Testimonio de cliente",
-        "video": "/videos/ugc-4.mp4",
-        "poster": ""
-      },
-      {
-        "categoria": "Video Marketing",
-        "titulo": "Antes y después",
-        "video": "/videos/ugc-5.mp4",
-        "poster": ""
-      },
-      {
-        "categoria": "Creadores UGC",
-        "titulo": "Demostración de uso",
-        "video": "/videos/ugc-6.mp4",
+        "titulo": "Reel destacado",
+        "video": "/videos/sq-ugc-reel.mp4",
         "poster": ""
       }
     ]
