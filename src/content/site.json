@@ -595,6 +595,24 @@
         "titulo": "Reel destacado",
         "video": "/videos/sq-ugc-reel.mp4",
         "poster": ""
+      },
+      {
+        "categoria": "Creadores UGC",
+        "titulo": "Radio La Nuestra",
+        "video": "/videos/radio-la-nuestra.mp4",
+        "poster": ""
+      },
+      {
+        "categoria": "Creadores UGC",
+        "titulo": "Testimonio de cliente",
+        "video": "/videos/testimonio-cliente.mp4",
+        "poster": ""
+      },
+      {
+        "categoria": "Creadores UGC",
+        "titulo": "Visionary Finance Systems",
+        "video": "/videos/visionary-finance.mp4",
+        "poster": ""
       }
     ]
   },
