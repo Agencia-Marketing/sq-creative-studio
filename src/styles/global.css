@@ -110,9 +110,7 @@ section { padding:6rem 1.5rem; }
 .orb-ring:nth-child(2) { inset:-20px; animation-delay:1s; opacity:.6; }
 .orb-ring:nth-child(3) { inset:-45px; animation-delay:2s; opacity:.3; }
 .orb-dot { position:absolute; top:50%; left:50%; width:12px; height:12px; background:var(--orange); border-radius:50%; box-shadow:0 0 16px rgba(var(--orange-rgb),.8); margin-top:-6px; margin-left:-6px; transform-origin:0 -120px; animation:orbit 8s linear infinite; }
-.stat-badge { position:absolute; background:var(--bg-card); border:1px solid var(--border); border-radius:14px; padding:.6rem 1rem; font-size:.8rem; font-weight:700; display:flex; align-items:center; gap:.5rem; animation:float 7s ease-in-out infinite; }
-.stat-badge:nth-child(6) { top:10%; right:-5%; animation-delay:-3.5s; }
-.stat-badge:nth-child(7) { bottom:15%; left:-5%; animation-delay:0s; }
+.stat-badge { position:absolute; background:var(--bg-card); border:1px solid var(--border); border-radius:14px; padding:.6rem 1rem; font-size:.8rem; font-weight:700; display:flex; align-items:center; gap:.5rem; white-space:nowrap; animation:float 7s ease-in-out infinite; }
 .stat-badge .dot { width:8px; height:8px; background:var(--orange); border-radius:50%; }
 
 /* Hero photo (Stephania) */
