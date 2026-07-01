@@ -30,17 +30,17 @@ const s = site;
         </div>
       </div>
       <div class="reveal-scale">
-        <div style="position:relative;aspect-ratio:1;max-width:420px;margin:0 auto">
-          <div class="orb-ring"></div>
-          <div class="orb-ring"></div>
-          <div class="orb-ring"></div>
-          <div style="position:absolute;inset:15%;border-radius:50%;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.75rem;padding:2rem;text-align:center">
-            <img src="/isotipo-blanco.png" alt="SQ Creative Studio" style="width:96px;height:auto" />
-            <span style="font-size:.75rem;color:var(--gray-400);font-weight:600;letter-spacing:.04em">SQ Creative Studio</span>
+        <div class="hero-photo">
+          <div class="hero-glow" style="top:8%;width:520px;height:520px"></div>
+          <div class="hero-photo-frame">
+            <img src="/stephania.webp" alt="Stephania — Fundadora de SQ Creative Studio" />
           </div>
-          <div class="orb-dot"></div>
-          <div class="stat-badge"><div class="dot"></div>{s.hero.badge1}</div>
-          <div class="stat-badge"><div class="dot"></div>{s.hero.badge2}</div>
+          <span class="hero-corner tl"></span>
+          <span class="hero-corner tr"></span>
+          <span class="hero-corner bl"></span>
+          <span class="hero-corner br"></span>
+          <div class="stat-badge" style="top:11%;right:-6%;animation-delay:-3.5s"><div class="dot"></div>{s.hero.badge1}</div>
+          <div class="stat-badge" style="bottom:10%;left:-6%;animation-delay:0s"><div class="dot"></div>{s.hero.badge2}</div>
         </div>
       </div>
     </div>

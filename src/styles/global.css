@@ -115,6 +115,18 @@ section { padding:6rem 1.5rem; }
 .stat-badge:nth-child(7) { bottom:15%; left:-5%; animation-delay:0s; }
 .stat-badge .dot { width:8px; height:8px; background:var(--orange); border-radius:50%; }
 
+/* Hero photo (Stephania) */
+.hero-photo { position:relative; max-width:400px; margin:0 auto; }
+.hero-photo-frame { position:relative; border-radius:24px; overflow:hidden; aspect-ratio:4/5; border:1px solid var(--border); background:linear-gradient(180deg,var(--bg-card-alt),var(--bg-card)); box-shadow:0 30px 70px rgba(0,0,0,.45); z-index:1; }
+.hero-photo-frame img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; }
+.hero-photo-frame::after { content:''; position:absolute; inset:0; background:linear-gradient(180deg,transparent 55%,rgba(var(--vino-rgb),.45)); pointer-events:none; }
+.hero-corner { position:absolute; width:36px; height:36px; border:2.5px solid var(--orange); z-index:2; }
+.hero-corner.tl { top:-9px; left:-9px; border-right:none; border-bottom:none; border-top-left-radius:8px; }
+.hero-corner.tr { top:-9px; right:-9px; border-left:none; border-bottom:none; border-top-right-radius:8px; }
+.hero-corner.bl { bottom:-9px; left:-9px; border-right:none; border-top:none; border-bottom-left-radius:8px; }
+.hero-corner.br { bottom:-9px; right:-9px; border-left:none; border-top:none; border-bottom-right-radius:8px; }
+.hero-photo .stat-badge { z-index:3; }
+
 /* Tabs */
 .tabs-nav { display:flex; gap:.5rem; flex-wrap:wrap; justify-content:center; margin-bottom:3rem; }
 .tab-btn { display:inline-flex; align-items:center; gap:.5rem; padding:.6rem 1.1rem; border-radius:999px; border:1px solid var(--border); background:var(--bg-card); color:var(--gray-400); font-family:var(--font-body); font-size:.8rem; font-weight:700; cursor:pointer; transition:background .25s,color .25s,border-color .25s,transform .2s var(--ease-expo); }

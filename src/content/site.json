@@ -25,10 +25,10 @@
     "tag": "Agencia de Marketing Digital",
     "title": "POTENCIAMOS TU MARCA",
     "title_highlight": "en digital",
-    "description": "Gestión de redes sociales, contenido audiovisual, videos UGC, automatización con inteligencia artificial y campañas publicitarias orientadas a resultados. Todo desde un solo estudio.",
+    "description": "Gestión de redes sociales, contenido audiovisual, grabación de reels, videos UGC, automatización con inteligencia artificial y campañas publicitarias orientadas a resultados. Todo desde un solo estudio.",
     "cta_primary": "Ver servicios",
     "cta_secondary": "Hablemos",
-    "badge1": "Entrega el mismo día",
+    "badge1": "Reels y videos UGC",
     "badge2": "Contenido 100% a medida"
   },
   "value": {
@@ -41,7 +41,7 @@
       {
         "icon": "groups",
         "title": "Equipo dedicado",
-        "desc": "Community manager y especialista en campañas asignados a tu cuenta"
+        "desc": "Community manager, estratega de campaña y diseñador asignados a tu cuenta"
       },
       {
         "icon": "auto_awesome",
@@ -80,7 +80,6 @@
               { "text": "15 diseños al mes (hasta 6 videos)", "included": true },
               { "text": "Community manager dedicado", "included": true },
               { "text": "Parrilla de contenidos y copies", "included": true },
-              { "text": "Respuesta a mensajes y comentarios", "included": true },
               { "text": "Campañas publicitarias", "included": false }
             ]
           },
@@ -94,9 +93,9 @@
             "features": [
               { "text": "2 redes sociales", "included": true },
               { "text": "15 diseños por red al mes", "included": true },
+              { "text": "6 videos grabados al cliente", "included": true },
               { "text": "Automatización con IA", "included": true },
-              { "text": "6 videos (incluye grabación opcional)", "included": true },
-              { "text": "1 video UGC + 9 diseños", "included": true },
+              { "text": "Video UGC by Stephania a $100", "included": true },
               { "text": "2 propuestas de campaña", "included": true }
             ]
           },
@@ -110,7 +109,8 @@
             "features": [
               { "text": "3 redes: Instagram, Facebook y TikTok", "included": true },
               { "text": "Todo lo del plan Indispensable", "included": true },
-              { "text": "15 diseños por red al mes", "included": true },
+              { "text": "6 videos grabados al cliente", "included": true },
+              { "text": "Video UGC by Stephania a $100", "included": true },
               { "text": "Campañas publicitarias incluidas", "included": true },
               { "text": "Reporte mensual de crecimiento", "included": true }
             ]
@@ -147,14 +147,13 @@
               { "text": "Diseño de script vendedor", "included": true },
               { "text": "Contratación del creador / modelo", "included": true },
               { "text": "1 video con edición profesional", "included": true },
-              { "text": "Propuesta de campaña publicitaria", "included": true },
-              { "text": "Trafficker para lanzamiento (30 días)", "included": true }
+              { "text": "Propuesta de campaña publicitaria", "included": true }
             ]
           },
           {
             "nombre": "UGC by Stephania",
             "icon": "stars",
-            "precio": "$100",
+            "precio": "$150",
             "periodo": "/video",
             "desc": "Video UGC realizado directamente por Stephania",
             "popular": false,
@@ -162,7 +161,7 @@
               { "text": "1 video UGC con edición", "included": true },
               { "text": "Guión: 3 días hábiles", "included": true },
               { "text": "Video: 5 a 7 días hábiles", "included": true },
-              { "text": "Ideal para complementar tu plan de redes", "included": true }
+              { "text": "$100 con plan de 2 o 3 redes", "included": true }
             ]
           }
         ]
@@ -535,14 +534,14 @@
         "desc": "Cada cuenta recibe su propia propuesta de diseño"
       },
       {
-        "icon": "bolt",
-        "title": "Entrega el mismo día",
-        "desc": "Iniciamos al contratar, con tu información completa"
+        "icon": "videocam",
+        "title": "Grabación de reels",
+        "desc": "Producimos y grabamos tu contenido audiovisual"
       },
       {
         "icon": "groups",
         "title": "Equipo asignado",
-        "desc": "Community manager, trafficker y video maker para ti"
+        "desc": "Community manager, estratega de campaña y diseñador para ti"
       },
       {
         "icon": "smart_toy",
@@ -662,14 +661,14 @@
         "iniciales": "CM"
       },
       {
-        "nombre": "Trafficker",
-        "rol": "Campañas publicitarias",
-        "iniciales": "TF"
+        "nombre": "Estratega de Campaña",
+        "rol": "Estrategia y campañas publicitarias",
+        "iniciales": "EC"
       },
       {
-        "nombre": "Video Maker",
-        "rol": "Producción audiovisual",
-        "iniciales": "VM"
+        "nombre": "Diseñador",
+        "rol": "Diseño gráfico y contenido",
+        "iniciales": "DG"
       }
     ]
   },
@@ -680,7 +679,7 @@
     "items": [
       {
         "pregunta": "¿Cuánto tardan en entregar?",
-        "respuesta": "Iniciamos el mismo día de la contratación cuando tenemos toda tu información completa. Los tiempos varían por servicio: diseño de marca 5 a 10 días, videos 2 a 10 días y sitios web de 5 a 20 días."
+        "respuesta": "Los tiempos varían por servicio: diseño de marca de 5 a 10 días, videos de 2 a 10 días y sitios web de 5 a 20 días. Al contratar te confirmamos la fecha de entrega según tu proyecto y la información que nos compartas."
       },
       {
         "pregunta": "¿Qué redes sociales gestionan?",
@@ -700,7 +699,7 @@
       },
       {
         "pregunta": "¿Hacen videos UGC?",
-        "respuesta": "Sí. Producimos videos publicitarios con personas reales: diseñamos el script vendedor, contratamos al creador, editamos el video y preparamos la propuesta de campaña con un trafficker para el lanzamiento."
+        "respuesta": "Sí. Producimos videos publicitarios con personas reales: diseñamos el script vendedor, contratamos al creador, editamos el video y preparamos la propuesta de campaña para tu lanzamiento."
       },
       {
         "pregunta": "¿Cómo es el proceso de trabajo?",
@@ -708,7 +707,7 @@
       },
       {
         "pregunta": "¿Atienden otros países?",
-        "respuesta": "Sí, trabajamos de forma remota para clientes de distintos países. Nuestro horario de atención es de lunes a sábado, de 8:00 a 18:00 (GMT-6, CDMX)."
+        "respuesta": "Sí, trabajamos de forma remota para clientes de distintos países, y también de forma presencial en San Antonio, TX. Nuestro horario de atención es de lunes a viernes, de 8:00 a 18:00."
       }
     ]
   },
@@ -719,10 +718,10 @@
     "subtitulo": "Primera consulta sin compromiso",
     "telefono": "+1 (954) 478 7920",
     "email": "ugc.bystephania@gmail.com",
-    "ubicacion": "Atención online · GMT-6 (CDMX)",
-    "horario": "Lun–Sáb, 8:00–18:00",
+    "ubicacion": "Online o presencial · San Antonio, TX",
+    "horario": "Lun–Vie, 8:00–18:00",
     "badge_title": "WhatsApp directo",
-    "badge_desc": "Escríbenos por WhatsApp al +1 (954) 478 7920 y te atendemos en nuestro horario de lunes a sábado.",
+    "badge_desc": "Escríbenos por WhatsApp al +1 (954) 478 7920 y te atendemos en nuestro horario de lunes a viernes.",
     "servicios_form": [
       "Redes Sociales",
       "Creadores UGC",
