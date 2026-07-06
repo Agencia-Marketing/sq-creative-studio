@@ -33,8 +33,8 @@
   },
   "value": {
     "tag": "Por qué elegirnos",
-    "title": "Estrategias que",
-    "title_highlight": "generan resultados",
+    "title": "Contenido que conecta,",
+    "title_highlight": "estrategia que vende",
     "description": "Combinamos creatividad, contenido audiovisual y tecnología con IA para que tu marca crezca, gane visibilidad y venda más.",
     "link_text": "Ver todos los servicios",
     "features": [
@@ -84,7 +84,7 @@
             ]
           },
           {
-            "nombre": "Indispensable",
+            "nombre": "Pro",
             "icon": "share",
             "precio": "$600",
             "periodo": "/mes",
@@ -100,15 +100,15 @@
             ]
           },
           {
-            "nombre": "Completo",
+            "nombre": "Growth",
             "icon": "rocket_launch",
             "precio": "$650",
             "periodo": "/mes",
-            "desc": "Instagram, Facebook y TikTok + todo lo del plan Indispensable",
+            "desc": "Instagram, Facebook y TikTok + todo lo del plan Pro",
             "popular": true,
             "features": [
               { "text": "3 redes: Instagram, Facebook y TikTok", "included": true },
-              { "text": "Todo lo del plan Indispensable", "included": true },
+              { "text": "Todo lo del plan Pro", "included": true },
               { "text": "6 videos grabados al cliente", "included": true },
               { "text": "Video UGC by Stephania a $100", "included": true },
               { "text": "Campañas publicitarias incluidas", "included": true },
@@ -522,9 +522,9 @@
   },
   "porque": {
     "tag": "Por qué SQ Creative Studio",
-    "title": "No somos una agencia",
-    "title_highlight": "más",
-    "description": "Ayudamos a negocios y emprendedores a fortalecer su imagen, aumentar su visibilidad y generar resultados a través de estrategias innovadoras de comunicación digital.",
+    "title": "Creamos contenido con",
+    "title_highlight": "propósito",
+    "description": "Te ayudamos a posicionar tu marca con contenido auténtico, estratégico y profesional.",
     "founder_name": "Stephania",
     "founder_role": "Fundadora — SQ Creative Studio",
     "features": [
@@ -569,7 +569,7 @@
     {
       "target": 3,
       "suffix": "",
-      "label": "Redes en el plan Completo"
+      "label": "Redes en el plan Growth"
     }
   ],
   "portafolio": {
@@ -683,7 +683,7 @@
       },
       {
         "pregunta": "¿Qué redes sociales gestionan?",
-        "respuesta": "Instagram, Facebook y TikTok. El plan Esencial cubre 1 red, el Indispensable 2 redes y el Completo las tres. De los 15 diseños incluidos por red, hasta 6 pueden ser videos."
+        "respuesta": "Instagram, Facebook y TikTok. El plan Esencial cubre 1 red, el Pro 2 redes y el Growth las tres. De los 15 diseños incluidos por red, hasta 6 pueden ser videos."
       },
       {
         "pregunta": "¿Las campañas incluyen la inversión publicitaria?",
