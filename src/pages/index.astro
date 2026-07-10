@@ -120,9 +120,15 @@ const s = site;
                   </div>
                 ))}
               </div>
-              <a href="#contacto" class={`plan-cta${plan.popular?' plan-cta-main':' plan-cta-ghost'}`}>
-                {plan.nombre==='Enterprise'?'Contactar':'Solicitar'}
-              </a>
+              {plan.checkout_url ? (
+                <a href={plan.checkout_url} target="_blank" rel="noopener" class={`plan-cta${plan.popular?' plan-cta-main':' plan-cta-ghost'}`}>
+                  {plan.periodo ? 'Suscribirme' : 'Pagar'}
+                </a>
+              ) : (
+                <a href="#contacto" class={`plan-cta${plan.popular?' plan-cta-main':' plan-cta-ghost'}`}>
+                  {plan.nombre==='Enterprise'?'Contactar':'Solicitar'}
+                </a>
+              )}
             </div>
           ))}
         </div>
