@@ -21,6 +21,7 @@ const { title = site.meta.title, description = site.meta.description } = Astro.p
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 
@@ -211,15 +212,34 @@ const { title = site.meta.title, description = site.meta.description } = Astro.p
     });
 
     // Form
-    function handleForm(e:Event){
+    async function handleForm(e:Event){
       e.preventDefault();
+      const form = e.target as HTMLFormElement;
       const btn = document.getElementById('submitBtn') as HTMLButtonElement;
+      const original = btn.innerHTML;
       btn.textContent='Enviando...'; btn.disabled=true;
-      setTimeout(()=>{
+      const data = Object.fromEntries(new FormData(form).entries());
+      if(!data['cf-turnstile-response']){
+        alert('Completa la verificación anti-bot antes de enviar.');
+        btn.innerHTML=original; btn.disabled=false; return;
+      }
+      try{
+        const res = await fetch('/api/contact',{
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify(data)
+        });
+        const out = await res.json().catch(()=>({ok:false}));
+        if(!res.ok || !out.ok) throw new Error(out.error||'Error');
         const success = document.getElementById('formSuccess')!;
         success.style.display='block';
         btn.style.display='none';
-      },1000);
+        form.reset();
+      }catch(err){
+        alert((err as Error).message || 'No se pudo enviar. Intenta de nuevo.');
+        btn.innerHTML=original; btn.disabled=false;
+        try{ (window as any).turnstile?.reset(); }catch{}
+      }
     }
     (window as any).handleForm = handleForm;
   </script>
